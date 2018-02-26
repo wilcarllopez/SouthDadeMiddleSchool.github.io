@@ -1,0 +1,17 @@
+#header{
+	background-color: #102e6e;
+	height: 140px;
+
+}
+
+#menu{
+	width: 1040px;
+	height: 54px;
+	z-index: 10;
+	position: relative;
+}
+
+#footer{
+	background-color: #102e6e;
+}
+
