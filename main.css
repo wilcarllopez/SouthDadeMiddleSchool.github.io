@@ -17,6 +17,11 @@
 
 #footer{
 	background-color: #102e6e;
+	background-image: url("images/footerbg.jpg");
+	font-family: Raleway;
+	font-size: 40px;
+	text-align: center;
+	color: white;
 }
 
 h1{
