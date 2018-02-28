@@ -10,48 +10,86 @@
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic,300italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/materia/bootstrap.min.css"> 
 
 </head>
 <body>
-	<div class="row" id="header">
-		<div class="col-sm-12" >
-			<h1>School</h1>
+
+		<nav class="navbar navbar-expand-lg navbar-dark" id="header">
+		<img src="images/logo.png">
+  		<a class="navbar-brand" href="index.html" id="title">South Dade Middle School</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+ 		<div class="collapse navbar-collapse" id="navbarColor01">
+    	<ul class="navbar-nav mr-auto">
+      		<li class="nav-item active">
+        		<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item">
+       			<a class="nav-link" href="aboutus.html">About Us</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="">Academics</a>
+     		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Students</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Parents</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Faculty & Staff</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Contact Us</a>
+      		</li>
+    	</ul>
+    			<form class="form-inline my-2 my-lg-0">
+     				 <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    			</form>
+  			</div>
+		</nav>
+
+
+	
+		<div class="col-sm-12" style="height:auto; background-color: orange; align-content: center;">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  				<div class="carousel-inner">
+    				<div class="carousel-item active">
+      					<img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
+    				</div>
+    				<div class="carousel-item">
+    					<img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+    				</div>
+    				<div class="carousel-item">
+      					<img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
+   					</div>
+   					<div class="carousel-item">
+      					<img class="d-block w-100" src="images/slide4.jpg" alt="Fourth slide">
+   					</div>
+   					<div class="carousel-item">
+      					<img class="d-block w-100" src="images/slide5.jpg" alt="Fifth slide">
+   					</div>
+  				</div>
+			</div>
+		</div>
+	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4" style="height: 800px; background-color: green;">
+				<h2>Cols</h2>
+			</div>
+			<div class="col-lg-8" style="height: 800px; background-color: violet;">
+				<h2>Cols</h2>
+			</div>
 		</div>
 	</div>
 
-	<div class="row" id="menu">
-		<div class="col-sm-12">
-			<nav class="navbar navbar-expand navbar-static-top">
-			  <ul>
-			  	<li>HOME</li>
-			  	<li>ABOUT US</li>
-			  	<li>ACADEMICS</li>
-			  	<li>STUDENTS</li>
-			  	<li>PARENTS</li>
-			  	<li>FACULTY & STAFF</li>
-			  	<li>CONTACT US</li>
-			  </ul>
-			</nav>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-sm-12" style="height:500px; background-color: orange">
-			<h1>Slideshow</h1>
-		</div>
-	</div>
-
-<div class="container">
-	<div class="row">
-		<div class="col-md-4" style="height: 800px; background-color: green;">
-			<h2>Cols</h2>
-		</div>
-		<div class="col-md-8" style="height: 800px; background-color: violet;">
-			<h2>Cols</h2>
-		</div>
-	</div>
-</div>
-<div class="row" id="footer">
+	<div class="row" id="footer">
 		<div class="col-sm-12" style="height:150px;" >
 			<h1>FOOTER</h1>
 		</div>
