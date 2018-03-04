@@ -1,0 +1,380 @@
+body{
+    padding: 0; 
+    margin: 0;
+    overflow-x: hidden;
+
+    background-image:url("./images/cbg.jpg");
+}
+
+
+/* searchbar */
+#mysearch{
+	border-top: 3px solid orange;
+	background-color: #152958;
+}
+
+#mysearch form{
+	float: right;
+	padding: 1px 0px 1px 0px;
+}
+
+#search{
+	background-color: #143175;
+	width: 70px;
+	height: 27px;
+	border: 0px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+#searchicon{
+	width: 25px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: middle;
+}
+::placeholder{
+	color:white;
+}
+/* end of searchbar */
+
+
+/* header */
+#myheader{
+	height: 135px;
+	background-color: #143175;
+
+}
+#myheader a,active{
+	font-family: 'Alfa Slab One';font-size: 50px;
+	color: white;
+    text-shadow: 5px 5px #152958;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+}
+#school-logo{
+	height: 136px;
+	width: 224px;
+}
+/* end of header */
+
+
+/* navigation css */
+#mynav{ 
+	width: 100%;
+	background-color: white; 
+	text-align: center; 
+	font-family: Arial;
+    font-weight: bold;
+	border-bottom: 3px solid orange;
+	position: relative !important; 
+	z-index: 9999 !important;
+}
+#mynav a#main{
+	text-transform: uppercase;;
+}
+#mynav ul{ 
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0; 
+}
+#mynav ul li{ 
+	display: inline-block; 
+}
+#mynav ul li:hover{ 
+	background-color: #102e6e;
+}
+#mynav ul li a,visited{ 
+	color:black; 
+	padding: 15px 10px 15px 10px; 
+	display: block; 
+	text-decoration: none; 
+}
+#mynav ul li a:hover{ 
+	color:white; 
+	padding: 15px 10px 15px 10px; 
+	display: block; 
+	text-decoration: none; 
+}
+#mynav ul li:hover > a#main{ 
+	display: block; 
+	color:white;
+}
+#mynav ul li:hover > ul{ 
+	display: block;
+}
+#mynav ul ul{ 
+	position: absolute; 
+	text-align: left; 
+	display: none; 
+	background-color: #102e6e; 
+}
+#mynav ul ul li{ 
+	display: block; 
+}
+#mynav ul ul li a,visited{
+	color: white; 
+	padding: 10px 10px 10px 10px; 
+}
+#mynav ul ul li a:hover{
+	color: black; 
+	padding: 10px 10px 10px 10px; 
+}
+#mynav ul ul li:hover{ 
+	background-color: white;
+}
+#mynav ul ul li:hover > a#sub{
+	color: black;
+}
+#mynav ul ul ul{ 
+	min-width: 200px; 
+	background-color:  #102e6e; 
+	margin: -44px 0 0 126px; 
+}
+#mynav ul ul ul a,visited{
+	color:white;
+}
+/* end of navigation */
+
+
+/* start of slider */
+#element{
+	width: 100%;
+	height: 530px;
+	animation: fader 20s infinite;
+	transition-delay: 1s;
+	border-bottom: 5px solid #143175;
+}
+
+@keyframes fader{
+	0%
+	{
+		background-image: url("../images/slide1.jpg");
+		background-size: cover;
+	}
+	25%
+	{
+		background-image: url("../images/slide2.jpg");
+		background-size: cover;
+	}
+	50%
+	{
+		background-image: url("../images/slide3.jpg");
+		background-size: cover;
+	}
+	75%
+	{
+		background-image: url("../images/slide4.jpg");
+		background-size: cover;
+	}
+	100%
+	{
+		background-image: url("../images/slide5.jpg");
+		background-size: cover;
+	}
+}
+/* end of slider */
+
+
+/* start content title */
+
+.orange{
+	width: 100%;
+	height: 50px;
+	background-color: #ffb700;
+	display: block;
+}
+.blue{
+	width:65%;
+	height: 50px;
+	background-color: #143175;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	border: 1px solid #143175;
+	text-align: center;
+}
+.orange hr{
+	border: 1px solid orange;
+	border-style: dashed;
+	position: relative;
+}
+.blue p{
+	font-family: 'Bree Serif';
+	font-size: 25px;
+	color: white;
+	text-shadow: 3px 3px #152958;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+}
+#ue{
+	text-decoration: none;
+}
+/* end of content title */
+
+
+/* start of featured content */
+.mycontent{
+	font-family: 'Raleway';
+	font-size: 18px;
+}
+.mycontent a{
+	font-weight: bold;
+	color: #143175;
+	text-decoration: none;
+}
+.mycontent img{
+	height: 75px;
+	width: 75px;
+	margin-right: 10px;
+}
+.mycontent hr{
+	border: 1px solid #143175;
+	border-style: dashed;
+	white-space: 10px;
+}
+
+#uevents{
+	font-family: 'Raleway';
+	font-size: 18px;
+	list-style: none;
+	font-weight: bold;
+
+}
+#uevents li{
+	
+	margin-bottom: 47px;
+}
+
+#uevents a{
+	color: #143175;
+	text-decoration: none;
+}
+/* end of featured content */
+
+/* start of extra-features */
+.extra{
+	width: 100%;
+	height: 770px;
+	background-image: url("../images/school.jpg");
+	background-size: cover;
+	display: block;
+	
+}
+
+#extrap{
+	text-align: center;
+	color: white;
+	text-shadow: 6px 3px #152958;
+	font-family: 'Mr Dafoe';
+	font-size: 100px;
+	position: relative;
+	display: block;
+	top: 18%;
+	
+}
+
+.grey{
+	width:100%;
+	height: 480px;
+	background:rgba(255,255,255, 0.5);;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.gal{
+	width:100%;
+	height: 408px;
+	background-color: orange;
+	position: relative;
+	display: inline-block;
+	top: 36px;
+}
+
+.gal a{
+	font-family: 'Bree Serif';
+	font-size: 30px;
+	color: #143175;
+	position: relative;
+	text-decoration: none;
+   
+}
+
+.photos{
+    display:inline-block;
+    width: 505px; 
+    height: 312px; margin-right: 10px;
+    margin-left: 10px;
+ }
+ /* end of extra-features */
+
+
+/* start of site footer */
+#footer{
+	background-image: url("../images/footerbg.jpg");
+	
+}
+#footer p{
+	font-family: 'Alfa Slab One';
+	font-size: 50px;
+	color: white;
+    text-shadow: 5px 5px #152958;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.powered{
+	background-color: orange;
+	height:40px;
+	text-align: center;
+	font-size: 12px;
+}
+#poweredby{
+	font-size: 15px;
+	font-family: 'Black Ops One'
+}
+.footerfixed{
+	position: fixed;
+	left:0px;
+   bottom:0px;
+   height:180px;
+   width:100%;
+   background:#999;
+}
+/* end of site footer */
+
+/* css for club activites table */
+
+table{
+	width: 100%;
+	box-shadow: 1px 1px grey;
+}
+th{
+	
+	background-color: #143175;
+	color:white;
+	padding:5px;
+}
+td{
+	border: 1px solid grey;
+}
+/* end of club activities table */
+
+/* start staff img css */
+#sample{
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+      }
+/* end of staff img css */

@@ -1,101 +1,226 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Index</title>
+	<title>index</title>
+    <!-- bootstrap CDN
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20170911_00/e/js/element/element_main.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic,300italic" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/materia/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" href="js/bootstrap.min.js"></script>
+    <script type="text/javascript" href="js/bootstrap.bundle.min.js"></script>
 
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- custom google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mr Dafoe' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+    <!-- /custom google -->
+
+    <!-- fontawsome icon script -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <body>
 
-		<nav class="navbar navbar-expand-lg navbar-dark" id="header">
-		<img src="images/logo.png">
-  		<a class="navbar-brand" href="index.html" id="title">South Dade Middle School</a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
 
- 		<div class="collapse navbar-collapse" id="navbarColor01">
-    	<ul class="navbar-nav mr-auto">
-      		<li class="nav-item active">
-        		<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      		</li>
-      		<li class="nav-item">
-       			<a class="nav-link" href="aboutus.html">About Us</a>
-      		</li>
-      		<li class="nav-item">
-        		<a class="nav-link" href="academics.html">Academics</a>
-     		</li>
-      		<li class="nav-item">
-        		<a class="nav-link" href="#">Students</a>
-      		</li>
-      		<li class="nav-item">
-        		<a class="nav-link" href="#">Parents</a>
-      		</li>
-      		<li class="nav-item">
-        		<a class="nav-link" href="#">Contact Us</a>
-      		</li>
+	<div class="row"><!-- start of searchbar -->
+		<div id="mysearch" class="col-sm-12">
+			<div class="container">
+				<form>
+                    <input id="search" type="search" name="search" placeholder="SEARCH.." />
+                    <input id="searchicon" type="image" src="images/search.jpg" />
+                </form>
+			</div>
+		</div>
+	</div><!-- end of searchbar -->
+
+
+
+		
+	<div class="row"><!-- start of header -->
+		<div id="myheader" class="col-sm-12">
+			
+				<a href="index.html">SOUTH DADE<img id="school-logo" src="images/logo.png" alt="schoollogo">MIDDLE SCHOOL</a>
+			
+		</div>
+	</div><!-- end of header -->
+
+
+
+    <div class="row"><!-- start of navigation -->
+    <div id="mynav" class="col-sm-12">
+	   <ul>
+    		<li><a id="main" href="index.html">Home</a></li>
+    		<li><a id="main" href="#">About US</a>
+    			<ul>
+    				<li><a href="about-us/about-school.html">About our School</a></li>
+    				<li><a href="about-us/principals-message.html">Principal's Message</a></li>
+    				<li><a href="about-us/mission-statement.html">Mission Statement</a></li>
+    				<li><a href="about-us/news-&-announcements.html">News &amp; Announcements</a></li>
+    				<li><a href="about-us/upcoming-events.html">Upcoming Events</a></li>
+    				<li><a href="about-us/photo-albums.html">Photo Albums</a></li>
+    			</ul>
+    		</li>
+        	<li><a id="main" href="#">Academics</a>
+            	<ul>
+                	<li><a id="sub" href="#">Curriculum &rarr;</a>
+                    	<ul>
+                        	<li><a href="academics/6th-grade.pdf" download>6th Grade Bulletin</a></li>
+                        	<li><a href="academics/7th-grade.pdf" download>7th Grade Bulletin</a></li>
+                        	<li><a href="academics/8th-grade.pdf" download>8th Grade Bulletin</a></li>
+                        	<li><a href="academics/curri-b.pdf" download>Curriculum Bulletin</a></li>
+                    	</ul>
+                	</li>
+                	<li><a id="sub" href="#">Programs &rarr;</a>
+                		<ul>
+                        	<li><a href="academics/advance.html">Advance Academics Academy</a></li>
+                            <li><a href="academics/art.html">Art</a></li>
+                            <li><a href="academics/drama.html">Drama</a></li>
+                            <li><a href="academics/medical-m.html">Medical Magnet</a></li>
+                            <li><a href="academics/music.html">Music</a></li>
+                            <li><a href="academics/it.html">Information Technology</a></li>
+                            <li><a href="academics/iprep.html">i-Prep</a></li>
+                    	</ul>
+                	</li>
+            	</ul>
+        	</li><li>
+        	<a id="main" href="#">Students</a>
+        		<ul>
+        			<li><a href="students/clubs.html">Clubs and Activities</a></li>
+        			<li><a href="students/athletics.html">Athletics</a></li>
+        		</ul>
+    		</li><li>
+        	<a id="main" href="#">Parents</a>
+            	<ul>
+                	<li><a href="parents/foodservice.pdf" download>Food Service</a></li>
+                	<li><a href="parents/connections.html">Connection</a></li>
+                	<li><a href="parents/student-h.html">Parent/Student Handbook</a></li>
+            	</ul>
+        	</li><li>
+        	<a id="main" href="faculty/faculty.html">Faculty &amp; Staff</a></li><li>
+        	<a  id="main" href="#">Contact Us</a>
+        		<ul>
+        			<li><a href="contact-us/directions.html">Directions</a></li>
+        			<li><a href="contact-us/contact.html">Contact</a></li>
+        		</ul>
+    		</li>
     	</ul>
-    			<form class="form-inline my-2 my-lg-0">
-     				 <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    			</form>
-  			</div>
-		</nav>
+    </div>
+    </div><!-- end of navigation -->
+
+    <!-- start of slideshow -->
+    <div class="row">
+        <div id="element" class="col-sm-12">
+        </div>
+    </div>
+    <!-- end of slideshow -->
 
 
-	
-		<div class="col-sm-12" style="height:auto; background-color: orange; align-content: center;">
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  				<div class="carousel-inner">
-    				<div class="carousel-item active">
-      					<img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
-    				</div>
-    				<div class="carousel-item">
-    					<img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
-    				</div>
-    				<div class="carousel-item">
-      					<img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
-   					</div>
-   					<div class="carousel-item">
-      					<img class="d-block w-100" src="images/slide4.jpg" alt="Fourth slide">
-   					</div>
-   					<div class="carousel-item">
-      					<img class="d-block w-100" src="images/slide5.jpg" alt="Fifth slide">
-   					</div>
-  				</div>
-			</div>
-		</div>
-	
+    <!-- start of featured content -->
+    <div class="container">
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4" style="height: 800px; background-color: green;">
-				<h2>Cols</h2>
-			</div>
-			<div class="col-lg-8" style="height: 800px; background-color: violet;">
-				<h2>Cols</h2>
-			</div>
-		</div>
-	</div>
+        <div class="row">
+            <div class="col-sm-12" style="height:30px;"></div>
+        </div>
 
-	<div class="row" id="footer">
-		<div class="col-sm-12" style="height:150px;" >
-			<p>South Dade<br> Middle School</p>
-		</div>
-	</div>
+        <div class="row">
+            <div class="col-md-4">
+               
+                <a id="ue" href="https://www.google.com">
+                <div class="orange">
+                    <div class="blue">
+                        <p>UPCOMING EVENTS</p>
+                    </div>
+                    <hr />
+                </div>
+                </a>
+
+                <br />
+                <br />
+                <ul id="uevents">
+                    <li><a href="#">8th grade South Dade Senior Articulation</a></li>
+                    <li><a href="#">EESAC Meeting</a></li>
+                    <li><a href="#">8th Grade NAEP (Select students)</a></li>
+                    <li><a href="#">Science Mid-Year Assessment (8th Grade)</a></li>
+                    <li><a href="#">Science Mid-Year Assessment (8th Grade)</a></li>
+                </ul>
+               
+            </div>
+            <div class="col-md-8">
+                <a id="ue" href="https://www.google.com">
+                <div class="orange">
+                    <div class="blue">
+                        <p>NEWS &amp; ANNOUNCEMENTS</p>
+                    </div>
+                    <hr />
+                </div>
+                </a>
+                <br />
+                <br />
+                <div class="mycontent">
+                <a href="https://google.com">Medical Magnet Program, Information Technology Academy, Advanced Academic Academy, Music Academy, and Business Managment Academy</a>
+                <p>South Dade Middle excels in providing students with magnet and academy programs. If you want additional information about these programs and are interesting in attending South Dade Middle please email Mr. John A. Galardi, Principal at jgalardi@dadeschools.net or call Ms. Christina Campos at 305-224-5200.</p>
+                <hr />
+                <a href="https://www.google.com">Athletic Program</a>
+                <p>South Dade Middle offers a wide variety of boys and girls sports. If you have any questions regarding our athletic program please email our Athletic Director Mr. James Melvin at jmelvin@dadeschools.net</p>
+                Facebook Page Facebook Page
+                <hr/>
+                <img src="images/fb-icon.jpg" align="left">
+                <p><a href="https://www.facebook.com">Facebook Page Facebook Page</a><br />South Dade Middle has an official Facebook page. To learn more about the exciting educational environment at South Dade Middle please follow our page: South Dade Middle</p>
+                <hr />
+                <img src="images/twitter-icon.jpg" align="left">
+                <p><a href="https://www.twitter.com">Follow us on Twitter Follow us on Twitter</a><br/>
+                To get the latest information about student and teacher excellence at South Dade Middle please follow us on Twitter: @sdmpanthers
+                Join Principal Galardi on Wednesdays for a walk and talk
+                Principal Galardi is inviting parents to join him for a walk through of the school on Wednesdays at 9:00 a.m. No appointment needed!!</p>
+                <hr />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end of featured content -->
+
+    <!-- start of photo gallery -->
+    <div class="extra">
+        <div class="grey">
+            <div class="container">
+                <div class="gal">
+                    <a href="about-us/photo-albums.html">PHOTO GALLERY</a>
+                    <hr />
+                    <img class="photos" src="images/award.jpg"><img class="photos" src="images/our-school.jpg">
+                </div>
+            </div>
+        </div>
+        <p id="extrap">Home of the Panthers</p>
+    </div>
+    <!-- end of photo gallery -->
+
+
+    <!-- star of footer -->
+    
+    <div class="row" id="footer">
+        <div class="col-sm-12" style="height:150px;" >
+            <div class="container">
+            <a href="#"><p>SOUTH DADE<br> MIDDLE SCHOOL</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="powered">
+      <p>powered by <span id="poweredby">ITE3 STUDENTS</span></p>
+    </div>
+
+    <!-- end of footer -->
+
+              
 
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap js
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script> -->
+
 </body>
 </html>
